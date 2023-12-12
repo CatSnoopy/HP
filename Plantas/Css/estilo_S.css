@@ -1,0 +1,133 @@
+body {
+  border: 1px solid beige;
+  padding: 0px;
+  margin: 1px;
+}
+header {
+  background-color: rgb(240, 233, 233) ;
+  background-image: url();
+  text-align: center;
+  
+}
+/*Secciones de pagina*/
+#creador{
+  background-color:rgb(181, 211, 188) ;
+  padding: 20px;
+}
+#VLL{
+  background-color: rgb(215, 250, 220);
+  color: black;
+  padding: 20px;
+}
+/*Estilos de texto*/
+p {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    color: rgb(26, 41, 17);
+}
+h2 {
+  color: rgb(255, 255, 255);
+  background-color: rgb(234, 20, 20);
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+}
+h3 {
+  color: rgb(21, 53, 6);
+  background-color: rgb(146, 212, 132);
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+  margin: 1px;
+  border: 1px solid beige;
+  width: 100%;
+}
+h5{
+  background-color: aliceblue;
+  color: brown;  
+}
+/*centro del encabezado de la pagina*/
+.Cartel{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  padding: 0px;
+}
+.Cartel h1{
+  margin-left: 0%;
+  font-size:300%;
+  margin: 0%;
+}
+.Cartel button{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: rgb(82, 40, 40);
+  color: rgb(214, 216, 216);
+  font-size: 20px;
+  position: absolute;
+  top:60%;
+  border-radius:20px
+}
+/*Menus de navegación*/
+nav{
+  background-color: black;
+  padding: 4px;
+}
+nav a{
+  background-color: rgb(0, 0, 0);
+  color: rgb(206, 210, 218);
+  text-decoration: none;
+  margin-right: 30px;  
+  list-style:inline-block
+}
+nav ul{
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+nav li{
+  display: inline;
+  margin-right:0px ;
+  position:relative;
+}
+.submenu{
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  color: aliceblue;
+  border: 1px solid rgba(245, 245, 220, 0.61);
+  z-index: 1;
+}
+nav li:hover .submenu{
+  display: block;
+  opacity: 1px;
+  background-color: black;
+}
+.submenu li{
+  display: block;
+  padding: 3px;
+  text-align: left;
+  width: max-content;
+  background-color: rgb(5, 5, 5);
+}
+.submenu li a:hover {
+  background-color: rgb(85, 78, 67);
+  color: aliceblue;
+}
+section{
+  color: azure;
+}
+#tabla1{
+  border: 2px solid rgb(160, 212, 212);
+  background-color: rgb(33, 33, 59);
+}
+  th,td{
+  text-align: left;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  border: 1px solid rgb(181, 211, 211);
+  }
+
+footer{
+  background-color: rgba(240, 248, 255, 0.842);
+}
+
+
