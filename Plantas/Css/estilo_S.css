@@ -4,10 +4,10 @@ body {
   margin: 1px;
 }
 header {
-  background-color: rgb(240, 233, 233) ;
+  background-color: rgb(217 217 217) ;
   background-image: url();
   text-align: center;
-  
+  margin: 0px;
 }
 /*Secciones de pagina*/
 #App{
@@ -25,6 +25,10 @@ p {
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
     color: rgb(26, 41, 17);
 }
+h1{
+  font-family:monospace;
+  color:rgb(21, 53, 6)
+}
 h2 {
   color: rgb(255, 255, 255);
   background-color: rgb(234, 20, 20);
@@ -41,8 +45,9 @@ h3 {
   width: 100%;
 }
 h5{
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   background-color: rgb(240, 233, 233);
-  color: rgb(23, 65, 6);  
+  color: rgb(6, 19, 1);  
 }
 /*centro del encabezado de la pagina*/
 .Cartel{
@@ -57,14 +62,15 @@ h5{
   font-size:300%;
   margin: 0%;
 }
+/*Boton inicial*/
 .Cartel button{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: rgb(82, 40, 40);
+  background-color: rgb(64, 82, 40);
   color: rgb(214, 216, 216);
   font-size: 20px;
-  position: absolute;
-  top:60%;
-  border-radius:20px
+  position:absolute;
+  top: 70%;
+  border-radius:30px;
 }
 /*Menus de navegación*/
 nav{
@@ -110,7 +116,7 @@ nav li:hover .submenu{
   background-color: rgb(5, 5, 5);
 }
 .submenu li a:hover {
-  background-color: rgb(85, 78, 67);
+  background-color: rgb(68, 85, 67);
   color: aliceblue;
 }
 section{
