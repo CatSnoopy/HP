@@ -10,12 +10,12 @@ header {
   
 }
 /*Secciones de pagina*/
-#creador{
-  background-color:rgb(181, 211, 188) ;
+#App{
+  background-color:rgb(146, 212, 132);;
   padding: 20px;
 }
-#VLL{
-  background-color: rgb(215, 250, 220);
+#NS{
+  background-color: rgb(240, 233, 233);
   color: black;
   padding: 20px;
 }
@@ -41,8 +41,8 @@ h3 {
   width: 100%;
 }
 h5{
-  background-color: aliceblue;
-  color: brown;  
+  background-color: rgb(240, 233, 233);
+  color: rgb(23, 65, 6);  
 }
 /*centro del encabezado de la pagina*/
 .Cartel{
@@ -116,18 +116,9 @@ nav li:hover .submenu{
 section{
   color: azure;
 }
-#tabla1{
-  border: 2px solid rgb(160, 212, 212);
-  background-color: rgb(33, 33, 59);
-}
-  th,td{
-  text-align: left;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  border: 1px solid rgb(181, 211, 211);
-  }
-
 footer{
-  background-color: rgba(240, 248, 255, 0.842);
+  background-color: rgb(240, 233, 233);
+  padding: 20px;
 }
 
 
