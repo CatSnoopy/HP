@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  text-aling: center;
 }
 
 .form-register {
@@ -14,11 +15,13 @@
   font-family: 'calibri';
   color: white;
   box-shadow: 7px 13px 37px #000;
+  text-aling: center;
 }
 
 .form-register h4 {
   font-size: 22px;
   margin-bottom: 20px;
+  text-aling: center;
 }
 
 .controls {
@@ -30,6 +33,7 @@
   border: 1px solid #lf53c5;
   font-family: 'calibri';
   font-size: 18px;
+  text-aling: center;
 }
 
 .form-register p {
@@ -37,11 +41,13 @@
   text-aling: center;
   font-size: 18px;
   line-height: 40px;
+  text-aling: center;
 }
 
 .form-register a {
   color: white;
   text-decoration: none;
+  text-aling: center;
 }
 
 .form-register a: hover {
@@ -57,5 +63,6 @@
   color: white;
   magin: 16px 0;
   font-size: 16px;
+  text-aling: center;
   
 }
