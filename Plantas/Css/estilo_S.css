@@ -1,16 +1,16 @@
 body {
   border: 1px solid beige;
   padding: 0px;
-  margin: 1px;
+  margin: 0px;
   
 }
 header {
-  background-color: rgb(217 217 217) ;
-  background-image: url();
+  background-color: rgb(255, 255, 255) ;
   text-align: center;
   margin: 0px;
+  
 }
-/*Secciones de pagina*/
+
 #App{
   background-color:rgb(146, 212, 132);;
   padding: 20px;
@@ -24,7 +24,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  text-align: justify
+  text-align: justify;
   padding: 40px;
 }
 #QS img {
@@ -66,13 +66,22 @@ h5{
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 500px;
+  height: 430px;
   padding: 0px;
 }
 .Cartel h1{
   margin-left: 0%;
   font-size:300%;
   margin: 0%;
+  color: white;
+  text-align: center;
+  padding: 30px;
+  text-shadow:2px 2px 2px  black;
+}
+.Cartel p{
+  text-align: center;
+  color: white;
+  text-shadow:2px 2px 2px  black;
 }
 /*Boton inicial*/
 .Cartel button{
@@ -81,8 +90,10 @@ h5{
   color: rgb(214, 216, 216);
   font-size: 20px;
   position:absolute;
-  top: 70%;
-  border-radius:30px;
+  top: 60%;
+  padding: 2px;
+  border-radius:10px;
+  margin-left: 43%;
 }
 /*Menus de navegación*/
 nav{
@@ -102,7 +113,7 @@ nav ul{
   padding: 0px;
 }
 nav li{
-  display: inline;
+  display: inline-block;
   margin-right:0px ;
   position:relative;
 }
@@ -141,6 +152,7 @@ footer{
   background-color: rgb(240, 233, 233);
   padding: 0;
 }
+/*Formulario contacto*/
 .container-form{
   width: 100%;
   max-width: 1100px;
