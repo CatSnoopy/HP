@@ -24,7 +24,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  text-align: justify;
+  text-align: center;
   padding: 40px;
 }
 #QS h1{
@@ -74,7 +74,7 @@ header {
   font-size:xx-large;
   text-align: center;
 }
-#vacio{
+#Vacio{
   padding:20px;
   background-color:rgb(146, 212, 132);
   color:black;
@@ -156,7 +156,8 @@ h6{
 }
 
 #Gal{
-  margin-left: 3%;
+  display: block;
+  margin-left: 8%;
   border-collapse: separate;
   padding: 2px;
   background: none;
@@ -247,7 +248,7 @@ footer{
   box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
   background-color: rgb(240, 233, 233);
-  padding: 0;
+  padding: 20px;
 }
 /*Formulario contacto*/
 .container-form{
