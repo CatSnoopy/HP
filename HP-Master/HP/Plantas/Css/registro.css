@@ -13,6 +13,7 @@
   border-radius:4px;
   font-family: 'calibri';
   color: white;
+  box-shadow: 7px 13px 37px #000;
 }
 
 .form-register h4 {
@@ -32,9 +33,10 @@
 }
 
 .form-register p {
-height: 40px;
+  height: 40px;
   text-aling: center;
   font-size: 18px;
+  line-height: 40px;
 }
 
 .form-register a {
@@ -47,7 +49,7 @@ height: 40px;
   text-decoration: underline;
 }
 
-.form-register .buttons {
+.form-register .butons {
   width: 100%
   background: #lf53c5;
   border: none;
