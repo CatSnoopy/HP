@@ -24,7 +24,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  text-align: justify;
+  text-align: center;
   padding: 40px;
 }
 #QS h1{
@@ -156,6 +156,7 @@ h6{
 }
 
 #Gal{
+  display: block;
   margin-left: 3%;
   border-collapse: separate;
   padding: 2px;
@@ -272,7 +273,7 @@ footer{
 }
 .container-form form .campo, textarea{
 
-  width: 100%;
+  width: 95%;
   padding: 15px;
   font-size: 15px;
   background-color: #bfe0c4;
