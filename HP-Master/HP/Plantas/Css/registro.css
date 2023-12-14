@@ -2,11 +2,15 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background-image: url('imagenes/logo/logg.png'); 
+  background-size: cover;
+  background-position: center;
+  font-family: 'calibri';
 }
 
 .form-register {
   width: 400px;
-  background: #24303c;
+  background: rgba(36, 48, 60, 0.8);
   padding: 30px;
   margin: auto;
   margin-top: 100px;
