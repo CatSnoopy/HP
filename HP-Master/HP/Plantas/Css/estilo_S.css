@@ -313,3 +313,21 @@ label{
 .container-form .btn-enviar:hover{
   background: #0d6919;
 }
+
+.boton-registrar {
+  display: inline-block;
+  padding: 15px 30px;
+  background-color: #556b2f;
+  color: white;
+  text-decoration: none;
+  border: none;
+  border-radius: 6px;
+  font-size: 18px;
+  transition: background-color 0.3s ease;
+}
+
+.boton-registrar:hover {
+  background-color: #8fbc8f;
+}
+  
+    
