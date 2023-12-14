@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  text-align: center;
 }
 
 .form-register {
@@ -26,7 +25,8 @@
 
 .controls {
   width: 100%
-  background: #24303c;
+  color: #000000;
+  background: #ffffff;
   padding: 10px;
   border-radius: 4px;
   magin-buttom: 16px;
