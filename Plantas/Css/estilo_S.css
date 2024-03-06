@@ -1,0 +1,343 @@
+body {
+  border: 1px solid beige;
+  padding: 0px;
+  margin: 0px;
+  
+}
+header {
+  background-color: rgb(255, 255, 255) ;
+  text-align: center;
+  margin: 0px;
+  
+}
+
+#App{
+  background-color:rgb(146, 212, 132);;
+  padding: 20px;
+}
+#NS{
+  background-color: rgb(240, 233, 233);
+  color: black;
+  padding: 20px;
+}
+#QS{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  padding: 40px;
+}
+#QS h1{
+  color: rgb(21, 53, 6);
+  font-size:xx-large;
+}
+#QS p{
+  text-align: justify;
+  color: black;
+}
+#QS img {
+  max-width: 100px; 
+  border-radius: 5px;
+}
+#CL{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: justify;
+  padding: 40px;
+}
+#CL h1{
+  color: rgb(21, 53, 6);
+  font-size:xx-large;
+}
+#Cl p{
+  text-align: justify;
+  color: black;
+}
+#QSA h1{
+  color: rgb(21, 53, 6);
+  font-size:xx-large;
+  text-align: center;
+}
+#QSA img{
+  margin-left: 40%;
+}
+#QSA p{
+  color: black;}
+#FUN{
+  padding: 20px;
+  background-color: rgb(240, 233, 233);
+  margin: 0%;
+}
+#FUN h1{
+  color: rgb(21, 53, 6);
+  font-size:xx-large;
+  text-align: center;
+}
+#Vacio{
+  padding:20px;
+  background-color:rgb(146, 212, 132);
+  color:black;
+}
+/*Estilos de texto*/
+p {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    color: rgb(26, 41, 17);
+}
+h1{
+  font-family:monospace;
+  color:rgb(21, 53, 6)
+}
+h2 {
+  color: rgb(255, 255, 255);
+  background-color: rgb(21, 53, 6);
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+}
+h3 {
+  color: rgb(21, 53, 6);
+  background-color: rgb(146, 212, 132);
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+  margin: 1px;
+  border: 1px solid beige;
+  width: 100%;
+}
+h5{
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background-color: rgb(240, 233, 233);
+  color: rgb(6, 19, 1);  
+}
+h6{
+  font-family: 'Courier New', Courier, monospace;
+  color: rgb(6, 19, 1);  
+  font-size: larger;
+  padding: 2px;
+}
+
+#tablegaleria h3{
+  background-color: none;
+
+}
+/*centro del encabezado de la pagina*/
+.Cartel{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 430px;
+  padding: 0px;
+}
+.Cartel h1{
+  margin-left: 0%;
+  font-size:300%;
+  margin: 0%;
+  color: white;
+  text-align: center;
+  padding: 30px;
+  text-shadow:2px 2px 2px  black;
+}
+.Cartel p{
+  text-align: center;
+  color: white;
+  text-shadow:2px 2px 2px  black;
+}
+/*Boton inicial*/
+.Cartel button{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: rgb(64, 82, 40);
+  color: rgb(214, 216, 216);
+  font-size: 20px;
+  position:absolute;
+  top: 60%;
+  padding: 2px;
+  border-radius:10px;
+  margin-left: 45%;
+}
+
+#Gal{
+  display: block;
+  margin-left: 3%;
+  border-collapse: separate;
+  padding: 2px;
+  background: none;
+}
+#Gal th td{
+  padding: 20px;
+}
+#Gal2{
+  display: block;
+  margin-left: 3%;
+  border-collapse: separate;
+  padding: 2px;
+  background: none;
+}
+#Gal2 th td{
+  padding: 20px;
+}
+/*Tablas*/
+#tabla1 th, td {
+  padding: 20px;
+}
+#tablegaleria {
+      width: 50%;
+      border-collapse: collapse;
+      margin: 20px auto;
+    }
+
+#tablegaleria th, td {
+      border: 1px solid #dddddd;
+      padding: 8px;
+      text-align: center;
+}
+    th {
+      background-color: #f2f2f2;
+    }
+    tr:nth-child(odd) td:nth-child(even),
+    tr:nth-child(even) td:nth-child(odd) {
+      background-color: #42ac42b6; /* Color para las celdas impares */
+    }
+
+    tr:nth-child(even) td:nth-child(even),
+    tr:nth-child(odd) td:nth-child(odd) {
+      background-color: #0e5a1e79; /* Color para las celdas pares */
+    }
+
+/*Menus de navegación*/
+nav{
+  background-color: black;
+  padding: 4px;
+}
+nav a{
+  background-color: rgb(0, 0, 0);
+  color: rgb(206, 210, 218);
+  text-decoration: none;
+  margin-right: 30px;  
+  list-style:inline-block
+}
+nav ul{
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+nav li{
+  display: inline-block;
+  margin-right:0px ;
+  position:relative;
+}
+.submenu{
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  color: aliceblue;
+  border: 1px solid rgba(245, 245, 220, 0.61);
+  z-index: 1;
+}
+nav li:hover .submenu{
+  display: block;
+  opacity: 1px;
+  background-color: black;
+}
+.submenu li{
+  display: block;
+  padding: 3px;
+  text-align: left;
+  width: max-content;
+  background-color: rgb(5, 5, 5);
+}
+.submenu li a:hover {
+  background-color: rgb(68, 85, 67);
+  color: aliceblue;
+}
+section{
+  color: azure;
+}
+footer{
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(240, 233, 233);
+  padding: 20px;
+}
+/*Formulario contacto*/
+.container-form{
+  width: 100%;
+  max-width: 1100px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-gap: 50px;
+  margin-top: 90px;
+  
+}
+.container-form h2{
+  margin-bottom: 15px;
+  font-size: 35px;
+  background-color: rgb(21, 53, 6);
+}
+.container-form p{
+  font-size: 17px;
+  line-height: 1;
+  margin-bottom: 30px;
+}
+.container-form form .campo, textarea{
+
+  width: 95%;
+  padding: 15px;
+  font-size: 15px;
+  background-color: #bfe0c4;
+  border: 1px solid #0d6919;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  outline: 0px;
+  
+}
+.container-form form textarea{
+  
+  max-width: 530px;
+  min-width: 530px;
+  min-height: 140px;
+  max-height: 150px;
+}
+label{
+  
+  color: black;
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 15px;
+  
+}
+.container-form .btn-enviar{
+  padding: 15px;
+  font-size: 16px;
+  border: 0;
+  outline: 0px;
+  background: #0d6919;
+  color: white;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: all 300ms ease;
+  
+}
+.container-form .btn-enviar:hover{
+  background: #0d6919;
+}
+
+.boton-registrar {
+  display: inline-block;
+  padding: 15px 30px;
+  background-color: #556b2f;
+  color: white;
+  text-decoration: none;
+  border: none;
+  border-radius: 6px;
+  font-size: 18px;
+  transition: background-color 0.3s ease;
+}
+
+.boton-registrar:hover {
+  background-color: #8fbc8f;
+}
+  
+    
