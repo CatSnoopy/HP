@@ -10,7 +10,7 @@ text-align: center;
 margin: 0px;
 }
 
-/* ----CLASES-------------------------*/
+/* ----ID-------------------------*/
 
 #App{
 background-color:rgb(146, 212, 132);;
@@ -194,11 +194,11 @@ font-size: larger;
 padding: 2px;
 }
 
-/* ----- ID -------------------------
+/* ----- Clases -------------------------
 
 centro del encabezado de la pagina*/
 .Cartel{
-background-image: url('imagenes/Fondo/Encabezado.gif');
+background-image: url('imagenes/Fondo/Encabezada.gif');
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
@@ -289,16 +289,25 @@ background-color: rgb(68, 85, 67);
 color: aliceblue;
 }
 
+.Imagen{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+  padding: 0px;
+  width: 1px;
+}
+
 section{
 color: azure;
 }
 
 footer{
-margin: 0;
+margin: 1px;
 box-sizing: border-box;
 font-family: Arial, Helvetica, sans-serif;
 background-color: rgb(240, 233, 233);
-padding: 20px;
+padding: 1px;
 }
 
 /*Formulario contacto*/
@@ -309,7 +318,7 @@ margin: auto;
 display: grid;
 grid-template-columns: repeat(2,1fr);
 grid-gap: 50px;
-margin-top: 90px;
+margin-top: 40px;
 
 }
 .container-form h2{
