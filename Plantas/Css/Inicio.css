@@ -31,11 +31,12 @@ form{
     background-color: rgba(69, 153, 80, 0.404);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     border-radius: 40px;
+    margin: 100px;
 }
 h2{
-    font-family:cursive;
+    font-family:'Times New Roman', Times, serif;
     font-size: 40px;
-    color: rgb(37, 116, 79);
+    color: rgb(149, 201, 176);
     margin: 1px;
 }
 section{
