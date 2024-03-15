@@ -34,9 +34,10 @@ form{
 }
 .campo:focus{
     background-color: rgba(134, 219, 169, 0.356);
-    color: black;
+    color: rgb(10, 10, 10);
     border-color: rgba(48, 219, 99, 0.137);
 }
+
 .resetear{
     background-color: rgba(120, 160, 141, 0.863);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -55,4 +56,5 @@ h2{
 a{
     color: rgb(126, 139, 129);
     text-shadow:2px 2px 2px  black;
+    text-decoration: none;
 }
