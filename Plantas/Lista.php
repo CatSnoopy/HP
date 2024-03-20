@@ -1,6 +1,6 @@
 <?php
 include_once "conexion.php";
-$sentencia = $base_de_datos->query("SELECT * FROM personas;");
+$sentencia = $base_de_datos->query("SELECT * FROM persona;");
 ?>
 <!--Recordemos que podemos intercambiar HTML y PHP como queramos-->
 <!DOCTYPE html>

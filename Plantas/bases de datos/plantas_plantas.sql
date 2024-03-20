@@ -16,30 +16,31 @@
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 --
--- Table structure for table `usuarios`
+-- Table structure for table `personas`
 --
 
-DROP TABLE IF EXISTS `usuario`;
+DROP TABLE IF EXISTS `plantas`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!50503 SET character_set_client = utf8mb4 */;
-create table `usuario`(
-  `id_usuario` int not null auto_increment,
-  `nombre` varchar(50) not null,
-  `usuario` varchar (20)not null,
-  `correo` varchar(50),NOT NULL
-  `contraseña` varchar(50)not null,
-primary key (`id_usuario`));
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+create table `plantas`(
+`id_plantas` int not null auto_increment,
+`nombre` varchar(50) not null,
+`tipo` varchar(20) not null,
+`temperatura` int not null ,
+`riego` varchar(20) not null,
+`iluminacion` varchar(20) not null,
+primary key (`id_plantas`));
+) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
--- Dumping data for table `usuarios`
+-- Dumping data for table `personas`
 --
 
-LOCK TABLES `usuario` WRITE;
-/*!40000 ALTER TABLE `usuarios` DISABLE KEYS */;
-INSERT INTO `usuario` VALUES ('root','2035');
-/*!40000 ALTER TABLE `usuarios` ENABLE KEYS */;
+LOCK TABLES `plantas` WRITE;
+/*!40000 ALTER TABLE `personas` DISABLE KEYS */;
+
+/*!40000 ALTER TABLE `personas` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
