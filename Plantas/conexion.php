@@ -1,9 +1,9 @@
 <?php
 $hostname = "127.0.0.1";
 $username = "root";
-$password = "2035";
+$password = "admin";
 // debes cambiar el nombre de la base de datos 
-$dbname = "HP";
+$dbname = "clinica";
 
 // Create connection
 $base_de_datos = new mysqli($hostname, $username, $password, $dbname);

@@ -1,6 +1,6 @@
 <?php
 include_once "conexion.php";
-$sentencia = $base_de_datos->query("SELECT * FROM persona;");
+$sentencia = $base_de_datos->query("SELECT * FROM plantas;");
 ?>
 <!--Recordemos que podemos intercambiar HTML y PHP como queramos-->
 <!DOCTYPE html>
@@ -19,27 +19,27 @@ $sentencia = $base_de_datos->query("SELECT * FROM persona;");
 		<thead>
 			<tr>
 				<th>nombre</th>
-				<th>usuario</th>
-				<th>correo</th>
-				<th>contraseña</th>
+				<th>tipo</th>
+				<th>temperatura</th>
+				<th>iluminacion</th>
 			</tr>
 		</thead>
 		<tbody>
 			<?php while ($persona = $sentencia->fetch_assoc() ){ ?>
 			<tr>
 				<td><?php echo $persona["nombre"]?></td>
-				<td><?php echo $persona["usuario"]?></td>
-				<td><?php echo $persona["correo"]?></td>
-				<td><?php echo $persona["contraseña"]?></td>				
-				<td><a href="<?php echo "phpadicionales/editar.php?id=" .    $persona["id"]?>">Editar</a></td>
-				<td><a href="<?php echo "phpadicionales/eliminar.php?id=" .  $persona["id"]?>">Eliminar</a></td>
+				<td><?php echo $persona["tipo"]?></td>
+				<td><?php echo $persona["temperatura"]?></td>
+				<td><?php echo $persona["iluminacion"]?></td>				
+				<td><a href="<?php echo "PHP/editar.php?id=" .    $persona["id_plantas"]?>">Editar</a></td>
+				<td><a href="<?php echo "PHP/eliminar.php?id=" .  $persona["id_plantas"]?>">Eliminar</a></td>
 			</tr>
 			<?php } ?>
 		</tbody>
 	</table>
 	
 	<br> 
-	<a href="../paginaprincipal.php">Atras</a>
+	<a href="Iniciar_sesion.html">Atras</a>
 	
 </body>
 </html>
