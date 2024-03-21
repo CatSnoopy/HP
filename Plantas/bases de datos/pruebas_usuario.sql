@@ -26,7 +26,7 @@ create table `usuario`(
   `id_usuario` int not null auto_increment,
   `nombre` varchar(50) not null,
   `usuario` varchar (20)not null,
-  `correo` varchar(50),NOT NULL
+  `correo` varchar(50)NOT NULL,
   `contraseña` varchar(50)not null,
 primary key (`id_usuario`));
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
