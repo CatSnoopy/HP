@@ -19,18 +19,16 @@
 -- Table structure for table `personas`
 --
 
-DROP TABLE IF EXISTS `administrador`;
+DROP TABLE IF EXISTS `Blog`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!50503 SET character_set_client = utf8mb4 */;
-create table `administrador`(
-`id_admi` int not null auto_increment,
-`nombre` varchar(50) not null,
-`contraseña` varchar(50)not null,
-`id_plantas` int not null,
+create table `Blog`(
+`id_Blog` int not null auto_increment,
+`titulo` varchar(50)not null,
+`comentario` varchar(50) not null,
 `id_usuario` int not null,
-primary key (`id_admi`),
-foreign key (`id_usuario`) references usuario (`id_usuario`),
-foreign key (`id_plantas`) references plantas (`id_plantas`));
+primary key (`id_Blog`),
+foreign key (`id_usuario`) references usuario (`id_usuario`));
 ) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
@@ -38,7 +36,7 @@ foreign key (`id_plantas`) references plantas (`id_plantas`));
 -- Dumping data for table `personas`
 --
 
-LOCK TABLES `administrador` WRITE;
+LOCK TABLES `Blog` WRITE;
 /*!40000 ALTER TABLE `personas` DISABLE KEYS */;
 
 /*!40000 ALTER TABLE `personas` ENABLE KEYS */;
