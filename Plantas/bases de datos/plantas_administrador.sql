@@ -26,8 +26,7 @@ create table `administrador`(
 `id_admi` int not null auto_increment,
 `nombre` varchar(50) not null,
 `contraseña` varchar(50)not null,
-`id_plantas` int not null,
-`id_usuario` int not null,
+`correo` varchar(50)NOT NULL,
 primary key (`id_admi`),
 foreign key (`id_usuario`) references usuario (`id_usuario`),
 foreign key (`id_plantas`) references plantas (`id_plantas`));

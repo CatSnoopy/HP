@@ -24,9 +24,9 @@ DROP TABLE IF EXISTS `sugerencias`;
 /*!50503 SET character_set_client = utf8mb4 */;
 create table `sugerencias`(
 `id_sugerencias` int not null auto_increment,
-`Usuario` varchar(50)not null,
-`NombreP` varchar(50) not null,
-`Tipo` varchar(100)not null,
+`usuario` varchar(50)not null,
+`nombreP` varchar(50) not null,
+`tipo` varchar(100)not null,
 primary key (`id_sugerencias`)
 );
 ) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;

@@ -1,0 +1,169 @@
+
+.formulas {
+    display: flex;
+}   
+
+label{
+  color: black;
+  font-size: 15px;
+  font-weight: 600px;
+  margin-bottom: 15px;
+}
+  .Sugerencias form .campo, textarea{
+  
+  width: 55%;
+  padding: 1px;
+  font-size: 15px;
+  background-color: #bfe0c4;
+  border: 1px solid #0d6919;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  outline: 0px;
+  
+  }
+  .Sugerencias form textarea{
+  
+  max-width: 530px;
+  min-width: 530px;
+  min-height: 140px;
+  max-height: 150px;
+  }
+  
+  label{
+  color: black;
+  font-size: 15px;
+  display: inline-block;
+  width: 100%;
+  font-weight: 600;
+  margin-bottom: 10px;
+  }
+
+  .productos form .campo{
+  
+    width: 51%;
+    padding: 10px;
+    font-size: 15px;
+    background-color: #bfe0c4;
+    border: 1px solid #0d6919;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    outline: 0px;
+    }
+    .productos .btn-enviar{
+        padding: 10px;
+        font-size: 16px;
+        width: 15%;
+        border: 0px;
+        outline: 0px;
+        background: #0d6933b4;
+        color: white;
+        border-radius: 15px;
+        cursor: pointer;
+        transition: all 300ms ease;
+        display:block;
+        margin-left: 45%;
+        }
+        
+.productos .btn-enviar:hover{
+    background: #0d6919;
+}
+
+.productos{
+    width: 80%;
+    margin: 0 auto;
+    padding: 80px;
+}
+.productos li{
+    display: inline-block;
+    text-align: center;
+    width: 45%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 20px 20px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 10px;
+}
+
+.productos li:hover{
+    border-color:#0a7407;
+}
+
+.productos li:active{
+    border-color:#088c19;
+}
+
+.productos h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.productos li:hover h2{
+    font-size: 33px;
+}
+/*formulario contactenos general*/
+  .info-form form .campo{
+  
+    width: 51%;
+    padding: 10px;
+    font-size: 15px;
+    background-color: #bfe0c4;
+    border: 1px solid #0d6919;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    outline: 0px;
+    }
+  .info-form .btn-enviar{
+      padding: 10px;
+      font-size: 16px;
+      width: 14%;
+      border: 0;
+      outline: 0px;
+      background: #0d6933b4;
+      color: white;
+      border-radius: 15px;
+      cursor: pointer;
+      transition: all 300ms ease;
+      display:block;
+      }
+      
+  .info-form .btn-enviar:hover{
+      background: #0d6919;
+      }
+  /*Formulario contacto incio*/
+  .container-form{
+    width: 100%;
+    max-width: 780px;
+    margin: 0%;
+    display: flex;
+    margin-top: 40px;
+    margin-left: 1px black;
+    }
+    .container-form h2{
+    margin-bottom: 15px;
+    font-size: 35px;
+    background-color: rgb(21, 53, 6);
+    }
+    .container-form p{
+    font-size: 17px;
+    line-height: 1;
+    margin-bottom: 30px;
+    }
+    .container-form form .campo, textarea{
+    
+    width: 50%;
+    padding: 15px;
+    font-size: 15px;
+    background-color: #bfe0c4;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    outline: 0px;
+    
+    }
+    .container-form form textarea{
+    
+    max-width: 530px;
+    min-width: 530px;
+    min-height: 140px;
+    max-height: 150px;
+    }

@@ -19,7 +19,7 @@ $contraseña = $_POST["contraseña"];
 $sentencia = $base_de_datos->prepare("UPDATE personas SET usuario = ?, correo = ?, contraseña = ? WHERE nombre = ?;");
 $resultado = $sentencia->execute([$usuario, $correo, $contraseña, $nombre]); # Pasar en el mismo orden de los ?
 if($resultado === TRUE)
-   echo "Cambios guardados";
+	echo "Cambios guardados";
 else 
 	echo "Algo salió mal. Por favor verifica que la tabla exista, así como el ID del usuario";
 

@@ -24,7 +24,7 @@ $pdf->SetFont('Arial','B',16);
    
        $pdf->Cell(60);
        $pdf->Write(5,'Informe de Clientes ');
-       $pdf->Image('imagenes/pdf/img.jpg' , 80 ,22, 35 , 38,'JPG', 'http://www.google.com');
+       $pdf->Image('imagenes/General/bonsai.jpeg' , 80 ,22, 35 , 38,'JPG', 'http://www.google.com');
         
  
        // Cell(ancho, alto, texto, borde, posición actual, alineación del texto)

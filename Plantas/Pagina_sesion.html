@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home Plants</title>
     <link rel="stylesheet" href="Css/estilo_S.css">
+    <link rel="stylesheet" href="Css/Formularios.css">
     <link rel="shortcut icon" type="image/x-icon" href="imagenes/logo/logg.png">
   </head>
   <body>
@@ -15,17 +16,15 @@
         <li><a href="https://jbb.gov.co/tropicario-circuito-de-invernaderos/" target="_blank">Pagina oficial de plantas</a></li>
         <li><a href="#NS">Nosotros</a>
         <ul class="submenu">
+          <li><a href="#QSA">¿Que es?</a></li>
           <li><a href="#QS">Quienes Somos</a></li>
           <li><a href="#CL">Usuarios</a></li>
         </li>
         </ul>
-        <li><a href="#App">Aplicación</a>
-          <ul class="submenu">
-            <li><a href="#QSA">¿Que es?</a></li>
-          </ul class="submenu">
-        </li>
         <li><a href="#pie">Contacto</a></li>
-        <li> <a href="perfil.html">Perfil</a></li>
+        <li> <a href="perfil.html">Perfil</a>
+        <ul class="submenu"><li><a href="blog.html">Blog</a></li></ul></li>
+        <li> <a href="index.html">Cerrar Sesión</a></li>
         
     </nav>
     </header>
@@ -70,21 +69,40 @@
       <img src="imagenes/General/plantas-interior.webp" width="100%">
     </section>
     <footer id="pie">
-      <div class="container-form">
-        <div class="info-form">
-          <h2>Contactanos</h2>
-          <p>¿Necesitas asistencia personalizada o tienes alguna pregunta?</p>
-          <p>Completa nuestro formulario de contacto en línea para obtener respuestas rápidas y soluciones adaptadas a tus necesidades. Tu satisfacción es nuestra prioridad, y estamos aquí para ayudarte a cultivar un jardín exuberante con HOME PLANTS.
-          <p>¡Esperamos tu mensaje!</p>
-        <form action="#" autocomplete="off">
-          <label for="name">Nombre</label>
-          <input type="text" name="nombre" placeholder="Ingresa tu nombre" class="campo">
-          <label for="email">Correo Electronico</label>
-          <input type="email" name="email" placeholder="Ingresa tu e-mail" class="campo">
-          <label for="mensaje">Mensaje</label>
-          <textarea name="mensaje" placeholder="Ingresa tu mensaje" cols="30" rows="2"></textarea>
-          <input type="submit" name="enviar" value="Enviar" class="btn-enviar">
-        </form>
+      <div class="formularios">
+        <ul class="productos">
+          <li>
+              <h2>Sugerencias</h2>
+      <p>¿Deseas recomendar alguna planta?</p>
+      <p>Completa nuestro formulario de Sugerencias en línea para poder adaptadarnos a tus necesidades. <br> Tu satisfacción es nuestra prioridad y juntos podemos hacer crecer Home Plants.
+      <p>¡Esperamos tu Sugerencias!</p>
+      <form method="post" action="Sugerencias_index.php" autocomplete="off">
+      <label for="name">Usuario</label>
+      <input type="text" name="usuario" placeholder="Ingresa tu Usuario" class="campo">
+      <label for="name">Nombre de la Planta</label>
+      <input type="text" name="nombreP" placeholder="Ingresa planta" class="campo">
+      <label for="name">Tipo de planta</label>
+      <input type="text" name="tipo" placeholder="Ingresa tipo de planta" class="campo">
+      <input type="submit" name="enviar" value="Enviar" class="btn-enviar">
+      </form>
+          </li>
+          <li>
+              <h2>Contactanos</h2>
+      <p>¿Tienes alguna pregunta?</p>
+      <p>Completa nuestro formulario de contacto en línea para obtener respuestas rápidas y soluciones adaptadas a tus necesidades.Estamos aquí para ayudarte a cuidar tu jardin.
+      <p>¡Esperamos tu mensaje!</p>
+      <form method="post" action="contactanos_index.php" autocomplete="off">
+      <label for="name">Nombre</label>
+      <input type="text" name="nombre" placeholder="Ingresa tu nombre" class="campo">
+      <label for="email">Correo Electronico</label>
+      <input type="email" name="email" placeholder="Ingresa tu e-mail" class="campo">
+      <label for="mensaje">Mensaje</label>
+      <textarea name="mensaje" placeholder="Ingresa tu mensaje" cols="30" rows="2"></textarea>
+      <input type="submit" name="enviar" value="Enviar" class="btn-enviar">
+      </form>
+          </li>
+      </ul>
+      </div>
       <h5>Redes sociales</h5>
       <ul>
         <a href="http://facebook.com" target="_blank"><img src="imagenes/Redes sociales/Face.png" alt="40" width="50"></a>

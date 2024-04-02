@@ -16,7 +16,7 @@ $resultado = $sentencia->execute([$nombre, $email, $mensaje]); # Pasar en el mis
 #Con eso podemos evaluar
 
 if ($resultado === TRUE) 
-   echo "Insertado correctamente";
+  echo "Insertado correctamente";
 else
   echo "Algo salió mal. Por favor verifica que la tabla! ";
 

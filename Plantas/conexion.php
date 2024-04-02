@@ -1,7 +1,7 @@
 <?php
-$hostname = "127.0.0.1";
+$hostname = "127.0.0.1:3306";
 $username = "root";
-$password = "";
+$password = "1234";
 // debes cambiar el nombre de la base de datos 
 $dbname = "plantas";
 

@@ -9,19 +9,14 @@ $usuario    = $_POST["usuario"];
 $correo     = $_POST["correo"];
 $contraseña = $_POST["contraseña"];
 
- 
 $sentencia = $base_de_datos->prepare("INSERT INTO usuario (nombre, usuario, correo, contraseña) VALUES (?, ?,?,?);");
 $resultado = $sentencia->execute([$nombre, $usuario, $correo, $contraseña]); # Pasar en el mismo orden de los ?
 #execute regresa un booleano. True en caso de que todo vaya bien, falso en caso contrario.
 #Con eso podemos evaluar
 
 if ($resultado === TRUE) 
-   echo "Insertado correctamente";
+  echo "Insertado correctamente";
 else
   echo "Algo salió mal. Por favor verifica que la tabla! ";
-
-
-
-
 
 ?>
