@@ -1,0 +1,89 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 100, 0, 0.1); /* Sombra verde */
+}
+
+/* Estilos para el encabezado */
+h1 {
+    color: #006400; /* Verde oscuro */
+    text-align: center;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+/* Estilos para el formulario */
+form {
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 100, 0, 0.1); /* Sombra verde */
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+input[type="text"],
+textarea {
+    width: calc(100% - 40px); /* Ajuste para el padding del formulario */
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    width: calc(100% - 40px); /* Ajuste para el padding del formulario */
+    padding: 12px;
+    background-color: #006400; /* Verde oscuro */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+input[type="submit"]:hover {
+    background-color: #008000; /* Verde más claro */
+}
+
+/* Estilos para las publicaciones */
+.publicacion {
+    background-color: #fff;
+    padding: 30px;
+    margin-top: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 100, 0, 0.1); /* Sombra verde */
+}
+
+.publicacion h2 {
+    color: #006400; /* Verde oscuro */
+    margin-bottom: 20px;
+}
+
+.publicacion p {
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+.publicacion hr {
+    border: none;
+    border-top: 1px solid #ccc;
+    margin: 30px 0;
+}
