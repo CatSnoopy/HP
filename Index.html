@@ -14,18 +14,20 @@
       <nav>
         <ul>
         <li><a href="https://jbb.gov.co/tropicario-circuito-de-invernaderos/" target="_blank">Pagina oficial de plantas</a></li>
-        <li><a href="#NS">Nosotros</a>
+        <li><a href="#Nosotros">Nosotros</a>
         <ul class="submenu">
-          <li><a href="#QSA">¿Que es?</a></li>
           <li><a href="#QS">Quienes Somos</a></li>
           <li><a href="#CL">Usuarios</a></li>
         </li>
         </ul>
+        <li><a href="#App">Aplicación</a>
+          <ul class="submenu">
+            <li><a href="#QSA">¿Que es?</a></li>
+            <li><a href="#FUN">Funciones</a></li>
+          </ul class="submenu">
+        </li>
         <li><a href="#pie">Contacto</a></li>
-        <li> <a href="perfil.html">Perfil</a>
-        <ul class="submenu"><li><a href="blog.html">Blog</a></li></ul></li>
-        <li> <a href="index.html">Cerrar Sesión</a></li>
-        
+        <li> <a href="Iniciar_sesion.html">Iniciar Sesión</a></li>
     </nav>
     </header>
     <main>
@@ -36,11 +38,9 @@
           especializados y cuidado experto. <br> ¡Bienvenido al mundo de la jardinería consciente y la belleza botánica en tu hogar!</p>
         <a href="https://www.elmueble.com/plantas-flores/razones-para-tener-plantas_44552" target="_blank"><button> Descubre más  &#128154</button></a>
         </section>
-        <br>
     </main>
-    <section id="NS">
+    <section id="Nosotros">
     <section id="QS">
-        <br>
         <h1>¿QUIENES SOMOS? <br>Descubre nuestra historia verde. </h1>
         <p>En el corazón de nuestra pasión por la naturaleza y el bienestar, nace nuestra <br>apliación de cuidado de plantas.somos un equipo apasionado, amantes 
         de <br>las plantas,comprometidos con la misión de hacer que la experiencia de cuidar <br> tus plantas sean gratificantes. </p>
@@ -65,45 +65,52 @@
         un entorno prospero, con una interfaz intuintiva, guiandote paso a paso para el cuidado de tus plantas, desde la selección de la planta hasta su cosecha </p>
       </section>
     </section>
-    <section class="imagen">
-      <img src="imagenes/General/plantas-interior.webp" width="100%">
-    </section>
+    <section id="FUN">
+      <h1>FUNCIONES</h1>
+      <p>Las funciones Escenciales de Nuestra Aplicación de Cuidado de Plantas Home Plants es:</p>
+      <table id="galeria">
+      <tr>
+      <td><h6> 1.Perfil Personalizado de Plantas:</h6><p>Permite a los usuarios crea perfiles individuales con datos para cada una de tus plantas, registrando su nombre de la planta, tipo de planta, la fecha en la que fue adquirida y 
+        el lugar de origen.</p></td>
+      <td><h6> 2. Recordatorio de Cuidados:</h6><p>Configura recordatorios diarios personalizados a los usuarios para el riego de sus plantas y mas cuidados, dependiendo el tipo de planta,
+        adaptandolo a las necesidades basicas de las mismas.</p></td>
+      <td><h6> 3. Recomendaciones:</h6><p>Proporciona recomendaciones específicas del cuidado de cada planta basada en su información de perfil y preferencias y facilidades del usuario.</p></td></tr>
+      </td>
+      <tr>
+      <td><h6> 4. Blog personal:</h6><p>Tendran acceso a un Blog personal que demas usuario podran mirar y escribir acerca de las publicaciones existentes.</p></td>
+      <td><h6> 5. Asesoramiento:</h6><p>Obten asesoramiento para responder a tus preguntas sobre problemas comunes cómo, plagas, enfermedades, paracitos etc. Y cualquier consulta relacionada
+        con el cuidado de tus plantas.</p></td>
+      <td><h6> 6. Consejos personalizados:</h6><p>Recibe consejos personalizados basados en el análisis de datos, considerando factores como ubicación, el clima y las caracteristicas de tus plantas.</p></td>
+      </tr>
+    </table>
+    <div id="Gal2">
+      <ul>
+      <li><img src="imagenes/General/bonsai.jpeg" height="500" width="400"></li>
+      <li><img src="imagenes/General/riego.jpg" height="500" width="400"></li>
+      <li><img src="imagenes/General/plantas2.jpeg" height="500" width="400"></lu>
+      </lu>
+    </div>
+  </section>
     <footer id="pie">
-      <div class="formularios">
-        <ul class="productos">
-          <li>
-              <h2>Sugerencias</h2>
-      <p>¿Deseas recomendar alguna planta?</p>
-      <p>Completa nuestro formulario de Sugerencias en línea para poder adaptadarnos a tus necesidades. <br> Tu satisfacción es nuestra prioridad y juntos podemos hacer crecer Home Plants.
-      <p>¡Esperamos tu Sugerencias!</p>
-      <form method="post" action="Sugerencias_index.php" autocomplete="off">
-      <label for="name">Usuario</label>
-      <input type="text" name="usuario" placeholder="Ingresa tu Usuario" class="campo">
-      <label for="name">Nombre de la Planta</label>
-      <input type="text" name="nombreP" placeholder="Ingresa planta" class="campo">
-      <label for="name">Tipo de planta</label>
-      <input type="text" name="tipo" placeholder="Ingresa tipo de planta" class="campo">
-      <input type="submit" name="enviar" value="Enviar" class="btn-enviar">
-      </form>
-          </li>
-          <li>
-              <h2>Contactanos</h2>
-      <p>¿Tienes alguna pregunta?</p>
-      <p>Completa nuestro formulario de contacto en línea para obtener respuestas rápidas y soluciones adaptadas a tus necesidades.Estamos aquí para ayudarte a cuidar tu jardin.
-      <p>¡Esperamos tu mensaje!</p>
-      <form method="post" action="contactanos_index.php" autocomplete="off">
-      <label for="name">Nombre</label>
-      <input type="text" name="nombre" placeholder="Ingresa tu nombre" class="campo">
-      <label for="email">Correo Electronico</label>
-      <input type="email" name="email" placeholder="Ingresa tu e-mail" class="campo">
-      <label for="mensaje">Mensaje</label>
-      <textarea name="mensaje" placeholder="Ingresa tu mensaje" cols="30" rows="2"></textarea>
-      <input type="submit" name="enviar" value="Enviar" class="btn-enviar">
-      </form>
-          </li>
-      </ul>
+        <div class="info-form">
+          <h2>Contactanos</h2>
+          <p>¿Necesitas asistencia personalizada o tienes alguna pregunta?</p>
+          <p>Completa nuestro formulario de contacto en línea para obtener respuestas rápidas y soluciones adaptadas a tus necesidades. Tu satisfacción es nuestra prioridad, y estamos aquí para ayudarte a cultivar un jardín exuberante con HOME PLANTS.
+          <p>¡Esperamos tu mensaje!</p>
+          <form method="post" action="contactanos_index.php" autocomplete="off">
+          <label for="name">Nombre</label>
+          <input type="text" name="nombre" placeholder="Ingresa tu nombre" class="campo" required>
+          <label for="email">Correo Electronico</label>
+          <input type="email" name="email" placeholder="Ingresa tu e-mail" class="campo" required>
+          <label for="mensaje">Mensaje</label>
+          <textarea name="mensaje" placeholder="Ingresa tu mensaje" cols="30" rows="2" required></textarea>
+          <input type="submit" name="enviar" value="Enviar" class="btn-enviar">
+        </form>
+        </div>
       </div>
-      <h5>Redes sociales</h5>
+    </div>
+      
+        <h5>Redes sociales</h5>
       <ul>
         <a href="http://facebook.com" target="_blank"><img src="imagenes/Redes sociales/Face.png" alt="40" width="50"></a>
         <a href="http://instagram.com" target="_blank"><img src="imagenes/Redes sociales/insta.png" alt="40" width="50"></a>

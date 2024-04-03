@@ -26,9 +26,8 @@ create table `Blog`(
 `id_Blog` int not null auto_increment,
 `titulo` varchar(50)not null,
 `comentario` varchar(50) not null,
-`id_usuario` int not null,
-primary key (`id_Blog`),
-foreign key (`id_usuario`) references usuario (`id_usuario`));
+`usuario` varchar(50),
+primary key (`id_Blog`));
 ) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 

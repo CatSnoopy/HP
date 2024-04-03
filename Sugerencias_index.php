@@ -23,18 +23,12 @@ if ($resultado === TRUE) {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Notificación</title>
-    <link rel="stylesheet" href="css/popup.css"> 
+    <link rel="stylesheet" > 
   </head>
   <body>
-    <div id="popup" class="overlay">
-      <div id="popupBody">
         <h2>Ha sido enviado exitosamente</h2>
-        <a id="cerrar" href="#">&times;</a>
-        <div class="popupContent">
+        <a href="Pagina_sesion.html">Volver</a>
           <p>Gracias.</p>
-        </div>
-      </div>
-    </div>
   </body>
   </html>
   <?php

@@ -12,13 +12,13 @@
         <form method="post" action="Registro.php">
             <section class="Formulario_registro">
             <h2>Registrarse</h2>
-            <input class="campo" type="text" name="nombre" id="nombre" placeholder="Ingrese su Nombre ">
-            <input class="campo" type="text" name="usuario" id="Usuario" placeholder="Ingrese su Usuario">
-            <input class="campo" type="email" name="correo" id="correo" placeholder="Ingrese su Correo">
-            <input class="campo" type="password" name="contraseña" id="contraseña" placeholder="Ingrese su Constraseña">
+            <input class="campo" type="text" name="nombre" id="nombre" placeholder="Ingrese su Nombre " required>
+            <input class="campo" type="text" name="usuario" id="Usuario" placeholder="Ingrese su Usuario" required>
+            <input class="campo" type="email" name="correo" id="correo" placeholder="Ingrese su Correo"required>
+            <input class="campo" type="password" name="contraseña" id="contraseña" placeholder="Ingrese su Constraseña"required>
             <section>
                 <label for="terminos">
-                    <input type="checkbox" id="terminos" name="terminos">
+                    <input type="checkbox" id="terminos" name="terminos" required>
                     Acepto los <a href="terminos_y_condiciones.txt" target="_blank">Términos y Condiciones</a>
                 </label> <br>
                 <input type="submit" value="Registrar" class="resetear">

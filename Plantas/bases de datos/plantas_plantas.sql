@@ -25,10 +25,10 @@ DROP TABLE IF EXISTS `plantas`;
 create table `plantas`(
 `id_plantas` int not null auto_increment,
 `nombre` varchar(50) not null,
-`tipo` varchar(20) not null,
-`temperatura` int not null ,
-`riego` varchar(20) not null,
-`iluminacion` varchar(20) not null,
+`tipo` varchar(100) not null,
+`temperatura` varchar(250) not null ,
+`riego` varchar(250) not null,
+`iluminacion` varchar(250) not null,
 primary key (`id_plantas`));
 ) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
