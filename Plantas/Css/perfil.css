@@ -1,47 +1,68 @@
-/* Estilos CSS */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f2f2f2;
+    background-color: #f5f5f5; /* Fondo gris claro */
     margin: 0;
     padding: 0;
 }
-.profile-header {
-    background-color: #bd081c;
-    color: #fff;
+.container {
+    max-width: 800px;
+    margin: 20px auto;
     padding: 20px;
+    background-color: #fff; /* Fondo blanco */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra */
+}
+h1 {
+    color: #388e3c; /* Verde */
     text-align: center;
 }
-.profile-header h1 {
-    margin: 0;
+p {
+    color: #558b2f; /* Verde oscuro */
+    text-align: center;
 }
-.profile-info {
-    background-color: #fff;
-    padding: 20px;
+a {
+    color: #2e7d32; /* Verde más oscuro */
+    text-decoration: none;
+}
+button {
+    background-color: #4caf50; /* Verde */
+    color: white;
+    border: none;
+    padding: 8px 16px;
     border-radius: 5px;
-    margin: 20px auto;
-    width: 80%;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
 }
-.board {
-    margin: 20px auto;
-    width: 80%;
-    overflow: hidden;
+button:hover {
+    background-color: #45a049; /* Verde más oscuro al pasar el ratón */
 }
-.board h2 {
-    border-bottom: 2px solid #bd081c;
-    padding-bottom: 5px;
+.favorites-list {
+    list-style-type: none;
+    padding: 0;
 }
-.pin {
-    width: 30%;
-    float: left;
-    margin: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+.favorites-list li {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #f9f9f9; /* Fondo gris claro */
     border-radius: 5px;
-    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
-.pin img {
-    width: 100%;
-    height: auto;
-    display: block;
+.favorites-list li a {
+    flex-grow: 1;
 }
-/* Otros estilos pueden seguir aquí */
+.favorites-list li button {
+    margin-left: 10px;
+}
+.divider {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.divider hr {
+    border: none;
+    border-top: 1px solid #ccc; /* Línea divisoria gris */
+    margin: 10px auto;
+    width: 50%;
+}

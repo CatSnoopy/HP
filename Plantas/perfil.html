@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="/Plantas/Css/perfil.css">
+<title>Mi perfil</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 20px;
+    }
+    .favorites-list {
+        list-style-type: none;
+        padding: 0;
+    }
+    .favorites-list li {
+        margin-bottom: 10px;
+    }
+</style>
+</head>
+<body>
+<button onclick="redirigir()">Pagina inicio</button>
+<h1>Mi Perfil</h1>
+<p>Selecciona tus páginas favoritas:</p>
+
+<ul id="paginas">
+    <li><a href="Anturio.html">Pagina 1</a> <button onclick="agregarFavorito('Anturio.html')">Agregar a favoritos</button></li>
+    <li><a href="Camedor.html">Pagina 2</a> <button onclick="agregarFavorito('Camedor.html')">Agregar a favoritos</button></li>
+    <li><a href="Croton.html">Pagina 3</a> <button onclick="agregarFavorito('Croton.html')">Agregar a favoritos</button></li>
+    <li><a href="elements.html">Pagina 4</a> <button onclick="agregarFavorito('pagina2.html')">Agregar a favoritos</button></li>
+    <li><a href="Espatifilo.html">Pagina 5</a> <button onclick="agregarFavorito('Espatifilo.html')">Agregar a favoritos</button></li>
+    <li><a href="Helecho-Espada.html">Pagina 6</a> <button onclick="agregarFavorito('Helecho-Espada.html')">Agregar a favoritos</button></li>
+    <li><a href="Palma-bambu.html">Pagina 7</a> <button onclick="agregarFavorito('Palma-bambu.html')">Agregar a favoritos</button></li>
+    <li><a href="Potos.html">Pagina 8 </a> <button onclick="agregarFavorito('Potos.html')">Agregar a favoritos</button></li>
+    <!-- Puedes añadir más páginas aquí -->
+</ul>
+
+<h2>Tus favoritos:</h2>
+<ul id="favoritos" class="favorites-list">
+    <!-- Esta lista se llenará con JavaScript -->
+</ul>
+
+<script>
+    // Función para agregar un favorito
+    function agregarFavorito(url) {
+        var favoritos = JSON.parse(localStorage.getItem('favoritos')) || [];
+        if (!favoritos.includes(url)) {
+            favoritos.push(url);
+            localStorage.setItem('favoritos', JSON.stringify(favoritos));
+            actualizarListaFavoritos();
+        }
+    }
+    function eliminarFavorito(index) {
+        var favoritos = JSON.parse(localStorage.getItem('favoritos')) || [];
+        favoritos.splice(index, 1);
+        localStorage.setItem('favoritos', JSON.stringify(favoritos));
+        actualizarListaFavoritos();
+    }
+    // Función para actualizar la lista de favoritos en la página
+    function actualizarListaFavoritos() {
+        var favoritos = JSON.parse(localStorage.getItem('favoritos')) || [];
+        var listaFavoritos = document.getElementById('favoritos');
+        listaFavoritos.innerHTML = '';
+        favoritos.forEach(function(url, index) {
+            var listItem = document.createElement('li');
+            var link = document.createElement('a');
+            link.href = url;
+            link.textContent = url;
+            listItem.appendChild(link);
+            var deleteButton = document.createElement('button');
+            deleteButton.textContent = 'Eliminar';
+            deleteButton.onclick = function() {
+                eliminarFavorito(index);
+            };
+            listItem.appendChild(deleteButton);
+            listaFavoritos.appendChild(listItem);
+        });
+    }
+
+    // Cargar los favoritos al cargar la página
+    window.onload = function() {
+        actualizarListaFavoritos();
+    };
+    function redirigir() {
+        window.location.href = 'otra_pagina.html';
+    }
+</script>
+
+</body>
+</html>
